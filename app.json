@@ -43,6 +43,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "15101c1a-2889-41e5-a0a0-61d4a861acbc"
+      }
+    },
+    "owner": "matheusfilipe.rezende"
   }
 }
