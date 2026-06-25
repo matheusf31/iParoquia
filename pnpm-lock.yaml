@@ -17,6 +17,9 @@ dependencies:
   '@react-navigation/native':
     specifier: ^7.1.8
     version: 7.3.3(react-native@0.81.5)(react@19.1.0)
+  dom-to-image:
+    specifier: ^2.6.0
+    version: 2.6.0
   expo:
     specifier: ~54.0.34
     version: 54.0.35(@babel/core@7.29.7)(@expo/metro-runtime@6.1.2)(expo-router@6.0.24)(react-native@0.81.5)(react@19.1.0)(typescript@5.9.3)
@@ -91,6 +94,9 @@ dependencies:
     version: 0.5.1(@babel/core@7.29.7)(react-native@0.81.5)(react@19.1.0)
 
 devDependencies:
+  '@types/dom-to-image':
+    specifier: ^2.6.7
+    version: 2.6.7
   '@types/react':
     specifier: ~19.1.0
     version: 19.1.17
@@ -2557,6 +2563,10 @@ packages:
       '@babel/types': 7.29.7
     dev: false
 
+  /@types/dom-to-image@2.6.7:
+    resolution: {integrity: sha512-me5VbCv+fcXozblWwG13krNBvuEOm6kA5xoa4RrjDJCNFOZSWR3/QLtOXimBHk1Fisq69Gx3JtOoXtg1N1tijg==}
+    dev: true
+
   /@types/estree@1.0.9:
     resolution: {integrity: sha512-GhdPgy1el4/ImP05X05Uw4cw2/M93BCUmnEvWZNStlCzEKME4Fkk+YpoA5OiHNQmoS7Cafb8Xa3Pya8m1Qrzeg==}
     dev: true
@@ -3888,6 +3898,10 @@ packages:
     dependencies:
       esutils: 2.0.3
     dev: true
+
+  /dom-to-image@2.6.0:
+    resolution: {integrity: sha512-Dt0QdaHmLpjURjU7Tnu3AgYSF2LuOmksSGsUcE6ItvJoCWTBEmiMXcqBdNSAm9+QbbwD7JMoVsuuKX6ZVQv1qA==}
+    dev: false
 
   /dotenv-expand@11.0.7:
     resolution: {integrity: sha512-zIHwmZPRshsCdpMDyVsqGmgyP0yT8GAgXUnkdAoJisxvf33k7yO6OuoKmcTGuXPWSsm8Oh88nZicRLA9Y0rUeA==}
